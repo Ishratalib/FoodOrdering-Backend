@@ -53,7 +53,6 @@ USE_X_FORWARDED_HOST = True
 
 INSTALLED_APPS = [
 
-     "corsheaders",
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -65,7 +64,8 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     'user',
     'restaurants',
-    'order'
+    'order',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
