@@ -211,3 +211,5 @@ SWAGGER_SETTINGS = {
     'PERSIST_AUTH': True,
     'JSON_EDITOR': True
 }
+
+print("settings");
